@@ -1,0 +1,22 @@
+[[package]]
+name = "mylib"
+version = "0.1.1"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = false
+
+[package.source]
+type = "git"
+url = "git@github.com:dpompeu-xgeeks/example-lib.git"
+reference = "cad773cb633c3d8be5ddd16ef6767d5d0bc6e7cc"
+resolved_reference = "cad773cb633c3d8be5ddd16ef6767d5d0bc6e7cc"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "0926374c84c01a01c8453b6d12f0c9508809fac61d5811fcdc93947d32cdd078"
+
+[metadata.files]
+mylib = []
