@@ -1,22 +1,20 @@
 [[package]]
 name = "mylib"
-version = "0.1.1"
+version = "0.2.0"
 description = ""
 category = "main"
 optional = false
 python-versions = "^3.8"
-develop = false
+develop = true
 
 [package.source]
-type = "git"
-url = "git@github.com:dpompeu-xgeeks/example-lib.git"
-reference = "cad773cb633c3d8be5ddd16ef6767d5d0bc6e7cc"
-resolved_reference = "cad773cb633c3d8be5ddd16ef6767d5d0bc6e7cc"
+type = "directory"
+url = "../mylib"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "0926374c84c01a01c8453b6d12f0c9508809fac61d5811fcdc93947d32cdd078"
+content-hash = "69f5b5b7146972821db7f9e2efb9228ec0a845f365ff8511ec10cab5a6b1debc"
 
 [metadata.files]
 mylib = []

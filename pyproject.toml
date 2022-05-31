@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-mylib = {git = "git@github.com:dpompeu-xgeeks/example-lib.git", rev = "cad773cb633c3d8be5ddd16ef6767d5d0bc6e7cc"}
+mylib = {path = "../mylib/", develop = true }
 
 [tool.poetry.dev-dependencies]
 
